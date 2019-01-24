@@ -14,6 +14,7 @@
 		34E91FA921FA2E0800049298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E91FA721FA2E0800049298 /* LaunchScreen.storyboard */; };
 		34E91FB421FA2E0800049298 /* PDF_Invoice_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E91FB321FA2E0800049298 /* PDF_Invoice_GeneratorTests.swift */; };
 		34E91FBF21FA2E0800049298 /* PDF_Invoice_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E91FBE21FA2E0800049298 /* PDF_Invoice_GeneratorUITests.swift */; };
+		34E91FCD21FA2F4100049298 /* cartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E91FCC21FA2F4100049298 /* cartItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		34E91FBA21FA2E0800049298 /* PDF Invoice GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PDF Invoice GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E91FBE21FA2E0800049298 /* PDF_Invoice_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDF_Invoice_GeneratorUITests.swift; sourceTree = "<group>"; };
 		34E91FC021FA2E0900049298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E91FCC21FA2F4100049298 /* cartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				34E91F9E21FA2E0600049298 /* AppDelegate.swift */,
 				34E91FA021FA2E0600049298 /* ViewController.swift */,
+				34E91FCC21FA2F4100049298 /* cartItem.swift */,
 				34E91FA221FA2E0600049298 /* Main.storyboard */,
 				34E91FA521FA2E0800049298 /* Assets.xcassets */,
 				34E91FA721FA2E0800049298 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E91FCD21FA2F4100049298 /* cartItem.swift in Sources */,
 				34E91FA121FA2E0600049298 /* ViewController.swift in Sources */,
 				34E91F9F21FA2E0600049298 /* AppDelegate.swift in Sources */,
 			);
